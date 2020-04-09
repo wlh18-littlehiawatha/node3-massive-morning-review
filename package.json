@@ -1,7 +1,6 @@
 {
   "name": "node-massive-review",
   "version": "1.0.0",
-  "description": "",
   "main": "./server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +9,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "massive": "^6.2.0",
     "pg": "^7.18.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlh18-littlehiawatha/node3-massive-morning-review.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wlh18-littlehiawatha/node3-massive-morning-review/issues"
+  },
+  "homepage": "https://github.com/wlh18-littlehiawatha/node3-massive-morning-review#readme",
+  "description": ""
 }
